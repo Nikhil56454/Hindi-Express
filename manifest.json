@@ -1,0 +1,21 @@
+
+{
+  "manifest_version": 3,
+  "name": "Hindi Express ",
+  "version": "1.0",
+  "description": "Translate webpage content from English to Hindi",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "action": {
+    "default_title": "Translate this page to Hindi",
+    "default_icon": {
+      "16": "icons/i1.png",
+      "48": "icons/i2.png",
+      "128": "icons/i3.png"
+    }
+  }
+}
